@@ -57,7 +57,7 @@ def get_date(text):
 Esta parte extrae la fecha basada en un patron de regex
 
 ### Parte 4
-```
+```python
 def create_categories_folders(categories):
     for category in categories:
         category_dir = join(TEXTOS_DIR, category)
